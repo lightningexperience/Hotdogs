@@ -1,0 +1,64 @@
+
+<div class="row mid">
+  <div class="col-md-8 mid">
+    <div class="row make">
+      <h1 class="mid">Hotdogs!</h1>
+    </div>
+    <br>
+    <div class="row mid img">
+    <img src="https://media.gettyimages.com/vectors/hot-dog-cartoon-vector-id165793866" alt="HotDog IMG" class="mid img">
+  </div>
+  </div>
+</div>
+<br>
+
+<div class="row mid">
+  <div class="col-md-8 mid">
+    <div class="row">
+
+      <div class="col-md-6 ketchup">
+        <h4>Hotdogs that are not devoured:</h4>
+        <ol>
+          {{#each hotdogs}}
+            {{#if devoured}}
+              {{> hotdogs/hotdog-block devoured=false}}
+            {{/if}}
+          {{/each}}
+        </ol>
+      </div>
+
+      <div class="col-md-6 mustard">
+        <h4>Hotdogs that are devoured:</h4>
+        <ol>
+          {{#each hotdogs}}
+            {{#unless devoured}}
+              {{> hotdogs/hotdog-block devoured=true}}
+            {{/unless}}
+          {{/each}}
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row mid">
+  <div class="col-md-8 mid make">
+    <br>
+      <h4>Add a Hotdog</h4>
+      <form class="create-form">
+
+        <div class="form-group">
+          <label for="hotdog">Hotdog Name:</label>
+          <input type="text" id="hotdog" name="name">
+        </div>
+
+        <div class="form-group">
+          <label for="devoured">Devoured?</label><br>
+          <input type="radio" name="devoured" value="0"> Yes<br>
+          <input type="radio" name="devoured" value="1" checked> No
+        </div>
+
+        <button type="submit">Add hotdog</button>
+      </form>
+  </div>
+</div>
