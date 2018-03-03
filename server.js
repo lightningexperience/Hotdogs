@@ -2,7 +2,7 @@ var mysql = require("mysql");
 var express = require("express");
 var exphbs = require("express-handlebars");
 var bodyParser = require("body-parser");
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 3000;
 
 var routes = require("./controllers/hotdogs_controller.js");
 var app = express();
