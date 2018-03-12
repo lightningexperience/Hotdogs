@@ -3,7 +3,7 @@ var mysql = require("mysql");
 // var connection = mysql.createConnection({
 //   host: "localhost",
 //   user: "root",
-//   password: "CMMAnum_1",
+//   password: "",
 //   database: "hotdogs_db"
 // });
 
