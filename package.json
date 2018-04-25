@@ -5,7 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.10",
     "mysql": "^2.15.0"
@@ -23,12 +23,5 @@
   "bugs": {
     "url": "https://github.com/fvaldez421/hotDogs/issues"
   },
-  "homepage": "https://github.com/fvaldez421/hotDogs#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.10",
-    "mysql": "^2.15.0"
-  }
+  "homepage": "https://github.com/fvaldez421/hotDogs#readme"
 }
