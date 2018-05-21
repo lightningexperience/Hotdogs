@@ -1,6 +1,31 @@
 .mid {
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto auto;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.pl-0 {
+  padding-left: 0px;
+}
+
+.font {
+  font-family: 'Lobster', cursive;
+}
+
+.round {
+  border-radius: 25px;
+}
+
+.heading {
+  text-align: center;
+  background-color: #ffefae;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  padding: 0px;
+  border-radius: 20px;
+  width: 100%;
 }
 
 .img {
@@ -16,6 +41,16 @@ li {
   padding: 5px;
   margin: auto;
   margin-left: 0px;
+  overflow: auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+  margin-right: 5px;
 }
 
 .label {
@@ -33,14 +68,15 @@ li {
 }
 
 .ketchup {
-	background-color: #ffebe6;
+	background-color: #ffdcd3;
 }
 
 .mustard {
-	background-color: #fffae6;
+	background-color: #ffefae;
 }
 
 .make {
-	background-color: #eeffe6; 
+  background-color: #dbffca; 
+  padding: 10px 0px;
 }
 
