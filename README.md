@@ -1,6 +1,6 @@
 # Hotdogs!
 ## A CRUD web application that allows users to create, update and delete hotdogs.
-(https://github.com/fvaldez421/Hotdogs/blob/master/public/assets/img/HotDogs.JPG)
+![HotDogs! Home Page](https://github.com/fvaldez421/Hotdogs/blob/master/public/assets/img/HotDogs.JPG)
 ## About
 ### This application was built using 
 **Bootstrap**: Quick and effective styling.
