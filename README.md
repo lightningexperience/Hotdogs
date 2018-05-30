@@ -2,7 +2,7 @@
 ## A CRUD web application that allows users to create, update and delete hotdogs.
 ![HotDogs! Home Page](https://github.com/fvaldez421/Hotdogs/blob/master/public/assets/img/HotDogs.JPG)
 ### About:
-This application was built as a project to demonstrate and practice the use of Handlebars and jQuery to build a full stack application with the ability to: **Create**, **Remove**, **Update** and **Delete** objects in it's database, then update them in the DOM.
+This application was built as a project to demonstrate and practice the use of Handlebars and jQuery to build a full stack application with the ability to **Create**, **Remove**, **Update** and **Delete** objects in it's database, then update them in the DOM.
 
 ### Technologies Used:
 
