@@ -10,7 +10,7 @@ if(process.env.JAWSDB_URL) {
         root: 3000,
         host: "localhost",
         user: "root",
-        password: "",
+        password: "CMMAnum_1",
         database: "hotdogs_db",
     });
 };
